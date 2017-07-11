@@ -1,0 +1,4 @@
+<div *ngFor = "let individualUserName of names">
+  <!--<span id="name-row" *ngFor="let name of names">Hello {{name}} !</span>-->
+  <app-user-item [name]='individualUserName'></app-user-item>
+</div>
